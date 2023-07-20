@@ -1,0 +1,9 @@
+@import './libs/normalize.css';
+
+$back: rgb(192, 192, 161);
+$text: rgb(73, 57, 57);
+
+body {
+  background-color: $back;
+  color: $text;
+}
