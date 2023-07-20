@@ -15,3 +15,5 @@ import './components/nepal/nepal';
 import './components/feedback/feedback';
 import './components/footer/footer';
 import './components/social-icons/social-icons';
+
+import './services/firebase.service';
