@@ -1,0 +1,32 @@
+@import "../../scss/colors.scss";
+@import "../../scss/breakpoints.scss";
+
+.footer {
+  height: 652px;
+  background-color: map-get($mainColors, "mainBlack");
+  &__top {
+    display: flex;
+  }
+  &__link {
+    display: flex;
+    flex-direction: column;
+  }
+  &__subscribe {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__btn {
+    @media screen and (max-width: map-get($breakpoints,'md')) {
+      display: none;
+    }
+  }
+  &__responsiv {
+    @media screen and (max-width: map-get($breakpoints,'xl')) {
+      margin-left: 12px;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+$offsets: (
+  6: 6px,
+  10: 10px,
+  12: 12px,
+  13: 13px,
+  15: 15px,
+  18: 18px,
+  20: 20px,
+  22: 22px,
+  30: 30px,
+  32: 32px,
+  34: 34px,
+  36: 36px,
+  40: 40px,
+  55: 55px,
+  42: 42px,
+  62: 62px,
+  92: 92px,
+  112: 112px,
+  173: 173px,
+  204: 204px,
+  250: 250px,
+  260: 260px,
+  270: 270px,
+  365: 365px,
+  461: 461px,
+);
+
+@each $key, $value in $offsets {
+  .pt-#{$key} {
+    padding-top: $value;
+  }
+}
+
+@each $key, $value in $offsets {
+  .pb-#{$key} {
+    padding-bottom: $value;
+  }
+}
+
+@each $key, $value in $offsets {
+  .pl-#{$key} {
+    padding-left: $value;
+  }
+}
+
+@each $key, $value in $offsets {
+  .pr-#{$key} {
+    padding-right: $value;
+  }
+}
+
+@each $key, $value in $offsets {
+  .mt-#{$key} {
+    margin-top: $value;
+  }
+}
+
+@each $key, $value in $offsets {
+  .mb-#{$key} {
+    margin-bottom: $value;
+  }
+}
+
+@each $key, $value in $offsets {
+  .ml-#{$key} {
+    margin-left: $value;
+  }
+}
+
+@each $key, $value in $offsets {
+  .mr-#{$key} {
+    margin-right: $value;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
